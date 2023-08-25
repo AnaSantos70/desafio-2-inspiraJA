@@ -1,0 +1,99 @@
+html,body{
+ margin:0;
+ padding: 0;
+}
+header{
+  background-color: rgb(252, 215, 191);
+  color:black;
+  height: 85px;
+  width: 100%;
+  position: fixed;
+}
+#logo{
+  width:60px;
+  position: absolute;
+  margin: 1%;
+}
+#menu{
+ float:right;
+ margin-right:2%;
+ list-style: none;
+}
+li{
+  float: left;
+  padding: 20px 10px 20px 10px;
+  margin-right:15px;
+}
+li:hover{
+  background-color: rgb(192, 116, 116);
+}
+#b1{
+  background-color: aqua;
+  text-align:center;
+  padding: 100px;
+  border-style:ridge;
+  border-color: aquamarine;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+  background-image:url(fotos/pencils.jpg);
+  background-size:cover ;
+  background-position: 100% 100%;
+  margin-bottom:1px;
+  margin-top: px;
+}
+p{
+  font-family: calisto mt;
+  line-height: 25px;
+  text-align: justify;
+}
+h2{
+  text-align: center;
+}
+.solucao{
+  width: 100px;
+  height: 130px
+}
+.col{
+  float:left;
+  padding: 10% 20% 10% 20%;
+  margin-left: 30px;
+  margin-right: 1px;
+  margin-bottom: 10px;
+ }
+.coluna{
+  text-align: center;
+  float:left;
+  width: 20%;
+  padding: 0 5%;
+  margin:5px;
+}
+ul{
+  text-align: justify;
+  line-height: 25px;
+}
+#ods{
+  float:left;
+}
+#sobre{
+  float:left;
+  background-color:rgb(246, 244, 247);
+  padding:20px;
+}
+.coluna_dois{
+  float:left ;
+  margin: 15px;
+  width:45%;
+}
+#ref{
+  float:left;
+  padding: 2% 50% 2% 2%;
+  margin: 10px;
+ }
+#foot{
+  float: left;
+  background-color:rgb(252, 215, 191);   
+  padding:20px 20px 20px 500px;
+  border-style: ridge;
+  border-color: rgb(153, 118, 95)marine;
+  text-align: right;
+  width: 100%;
+}
